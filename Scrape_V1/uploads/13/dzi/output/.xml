@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection MaxLevel="8" TileSize="256" Format="jpg" NextItemId="1" ServerFormat="Default" xmlns="http://schemas.microsoft.com/deepzoom/2009">
-  <Items>
-    <I Id="0" N="0" Source="..//output/heic1502a.xml">
-      <Size Width="10000" Height="3197" />
-    </I>
-  </Items>
-</Collection>

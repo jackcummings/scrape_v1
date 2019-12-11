@@ -23,7 +23,7 @@ public class Pictures
 
         SqlParameter[] myParameters = new SqlParameter[7];
         myParameters[0] = new SqlParameter("user_id", Int32.Parse(userID));
-        myParameters[1] = new SqlParameter("gallery_id", Int32.Parse(galleryID));
+        myParameters[1] = new SqlParameter("gallery_id", Int32.Parse(galleryID.Split(',')[0]));
         myParameters[2] = new SqlParameter("picture_name", name);
         myParameters[3] = new SqlParameter("picture_path", path);
         myParameters[4] = new SqlParameter("picture_description", description);

@@ -173,7 +173,7 @@
 
                                 formData.append("name", pics.querySelector("#picture_name_text").value);
                                 formData.append("description", pics.querySelector("#picture_description_text").value);
-                                formData.append("gallery_id", document.getElementById("galleryDDL").value[0]);
+                                formData.append("gallery_id", document.getElementById("galleryDDL").value);
 
                                 console.log(formData);
 

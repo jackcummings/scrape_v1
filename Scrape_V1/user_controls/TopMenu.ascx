@@ -66,6 +66,7 @@
                     <li>
                         <a href="#loginUserModal" uk-toggle>Login</a>
                     </li>
+                    <li><a href="/Register.aspx">Register</a></li>
                 </ul>
 
             </div>

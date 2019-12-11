@@ -51,8 +51,8 @@ public class hn_FileUpload : IHttpHandler, System.Web.SessionState.IRequiresSess
 
                     string picName = context.Request.Form["name"];
                     string picDescription = context.Request.Form["description"];
-                    string gallery_id = context.Request.Form["gallery_id"].Split(',')[0];
-
+                    string gallery_id = context.Request.Form["gallery_id"].ToString();
+                        //
                     pictures.insertUserPicture(currentUserID, gallery_id, "~/uploads/" + currentUserID + "/" + str_image, picWidth, picHeight, picName, picDescription);
                     numFiles++;
                 }
